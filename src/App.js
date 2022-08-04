@@ -19,6 +19,8 @@ class App extends Component {
   };
 
   async componentDidMount() {
+    
+    
     try {
       const { data: livros } = await axios.get("/api/todosOsLivros.json");
       this.setState({ livros });
