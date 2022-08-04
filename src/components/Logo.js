@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Logo = () => {
   return (
-    <a href="#">
-        <h1 className='logo'>
-            <span>Editora Maujortec</span>
-        </h1>
-    </a>
-  )
-}
+    <Link to="/">
+      <h1 className="logo">
+        <span>Editora Maujortec</span>
+      </h1>
+    </Link>
+  );
+};
 
-export default Logo
+export default Logo;
